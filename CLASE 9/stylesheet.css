@@ -1,0 +1,26 @@
+body{
+    background-color: #CECDC6;
+}
+
+h1{
+    font-family: "Roboto";
+    text-align: center;
+    color: blue;
+    
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    font-family: "Lora";
+}
+
+.negativo{
+    color: red;
+}
+
+.postivo{
+    color: blue;
+}

@@ -1,0 +1,32 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 150px 75px 75px 350px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 50px 100px 40px;
+    justify-content: center;
+}
+
+
+.grid div{
+    background: #ecf0f1;
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+.grid div:hover{
+    border: 1px solid yellow;
+}
+
+
+div :nth-child(3) {
+    align-self: start;
+    justify-self: end;
+    padding: 0;
+}
+
+div :nth-child(5) {
+    align-self: center;
+    justify-self: center;
+}
+

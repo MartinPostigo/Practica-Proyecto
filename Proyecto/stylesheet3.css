@@ -12,13 +12,17 @@ h1{
 
 p{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-left: 30px;
-    
+    margin-left: 350px;
+    width: 750px;
 }
 
+li{
+    width: 750px;
+}
 ol{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 #caja{
     border: 1px solid black;
     width: 14%;
@@ -53,6 +57,9 @@ figure{
     position: relative;
 }
 
+#comparacion{
+    margin-left: 25px;
+}
 figcaption{
     color: white;
     position: absolute;
