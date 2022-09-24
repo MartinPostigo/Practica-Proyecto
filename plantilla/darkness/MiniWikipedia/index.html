@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+
+		<!-- Estilos -->
+		<link rel="stylesheet" type="text/css" href="css/estilos.css">
+
+		<!--Ícono-->
+		<link rel="shortcut icon" type="image/x-icon" href="img/ico.ico" />
+
+		<title></title>
+	</head>
+  	<body>
+
+			<div class="container">
+
+				<h1>Historia e Introducción</h1>
+
+                	<ul>
+						<li>Introducción.</li>
+						<li>Historia.</li>
+						<li>Home.</li>
+						
+					</ul>
+
+                <p>Tras varias décadas en el olvido, la crisis del petróleo de 1973 produjo un breve renacimiento en el interés por los vehículos eléctricos durante la década de 1970 y 1980, aunque tampoco llegaron a alcanzar la comercialización en masa, como los vehículos eléctricos debido a los avances en las baterías y en la gestión de la energía, la preocupación global acerca del aumento de precios del petróleo, y la necesidad de reducir las emisiones de gases de efecto invernadero.78 Varios gobiernos nacionales y locales han establecido incentivos para los vehículos eléctricos o híbridos enchufables, exenciones de impuestos y otras ayudas para promover la introducción y la adopción en el mercado de este tipo de vehículos.</p>
+
+				</div>
+
+				<button class="accordion" id="Introducción">Introduccion</button>
+				<div class="panel">
+				  	<p>Un coche eléctrico es un automóvil propulsado por uno o más motores eléctricos, usando energía eléctrica. Los motores eléctricos proporcionan a los automóviles eléctricos un motor instantáneo, proporcionando una aceleración rápida desde parado y continua, además de asegurar la cero-contaminacion del medio ambiente.
+                        A diciembre de 2019 circulaban en el mundo 7,2 millones de vehículos eléctricos, contando los eléctricos puros (66.6%) y los híbridos enchufables (33.3%). China tiene la mayor flota de automóviles eléctricos en uso, con 3,4 millones, el 47% del ola, seguido de Europa con 1,7 millones (25%), y los Estados Unidos con 1,45 millones (20%).
+                        Actualmente, el Tesla Model 3, producido por <link href="https://es.wikipedia.org/wiki/Tesla,_Inc." Tesla Inc.>cuyo fundador es Elon Musk, es el automóvil eléctrico más vendido en la historia, con 1.100.000 unidades a octubre de 2021.</p>
+				</div>
+
+				<button class="accordion" id="Historia">Historia</button>
+				<div class="panel">
+				  	<p>En 1839, un empresario escocés de nombre Robert Anderson, presentaba un novedoso carruaje, muy similar en lo visual a cualquiera de los utilizados en la época, pero que prescindía de la hasta entonces necesaria tracción animal para moverse. Se trataba de un vehículo equipado con un rudimentario motor eléctrico, alimentado por una pila de energía no recargable, que era capaz de alcanzar la vertiginosa velocidad de 6 km/h.
+                        El inventor Thomas Edison también contribuyó directamente en el desarrollo del auto eléctrico, gracias a la introducción de nuevas baterías recargables de níquel y hierro que, a partir de 1911, comenzaron a llegar a los vehículos en producción. Frente a los autos impulsados por gasolina, más ruidosos, difíciles de conducir por sus rudimentarios cambios de marcha, y con un sistema de arranque mediante manivela muy incómodo, el auto eléctrico parecía una solución ideal para quien podía permitirse su coste. Pero en 1912, Henry Ford introdujo el motor de arranque en los autos de gasolina, y estos comenzaron a fabricarse en serie, ampliando sus prestaciones y la sencillez de conducción de la que gozaban hasta entonces los eléctricos. Todo esto, sumado a una marcada bajada en el precio del combustible, hizo que el auto eléctrico vaya pasando poco a poco al olvido.</p>
+				</div>
+
+
+			<script>
+			var acc = document.getElementsByClassName("accordion");
+			var i;
+
+			for (i = 0; i < acc.length; i++) {
+			  	acc[i].addEventListener("click", function() {
+			    	this.classList.toggle("active");
+			    	var panel = this.nextElementSibling;
+			    	if (panel.style.display === "block") {
+			      	panel.style.display = "none";
+			    	} else {
+			      	panel.style.display = "block";
+			    	}
+			  	});
+			}
+			</script>
+
+  	</body>
+</html>
